@@ -20,7 +20,7 @@ export default function Post() {
             <p>ID : {post? post.id:null}</p>
             <p>count : {count}</p>
             <button onClick={onClickHander}>Get Post </button>
-            <button onClick={onCountHandler}>Get Post </button>
+            <button onClick={onCountHandler}>Get Count</button>
         </div>
     )
 }
