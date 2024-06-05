@@ -12,7 +12,7 @@ export default function Post() {
     };
 
     const onCountHandler = () => {
-        setCount(count++);
+        setCount(count+1);
     };
     return (
         <div>
